@@ -31,8 +31,8 @@ export class MyApp {
     this.pages = [
       { title: 'Time Machine', component: TimemachinePage },
       { title: 'Help Page', component: HelpPage },
-      {title: 'Future times', component: FuturePage },
-      {title: 'Medeival times', component: MedievalPage},
+      //{title: 'Future times', component: FuturePage },
+      //{title: 'Medeival times', component: MedievalPage},
     ];
   }
 

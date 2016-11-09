@@ -5,6 +5,7 @@ import {TimemachinePage} from '../pages/timemachine/timemachine';
 import {MedievalPage} from '../pages/medieval/medieval';
 import {FuturePage} from '../pages/future/future';
 import {HelpPage} from '../pages/help/help';
+import {TesttimePage} from '../pages/testtime/testtime';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import {HelpPage} from '../pages/help/help';
     TimemachinePage,
     MedievalPage,
     FuturePage,
-    HelpPage
+    HelpPage,
+    TesttimePage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -23,7 +25,8 @@ import {HelpPage} from '../pages/help/help';
     TimemachinePage,
     MedievalPage,
     FuturePage,
-    HelpPage
+    HelpPage,
+    TesttimePage
   ],
   providers: []
 })

@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-//import {FuturePage} from '../pages/future/future';
+import {FuturePage} from '../future/future';
+import {MedievalPage} from '../medieval/medieval';
 
 @Component({
   selector: 'page-timemachine',
@@ -15,8 +16,12 @@ export class TimemachinePage {
     console.log('Hello TimemachinePage Page');
   }
 
-/*goToFuture() {
-  this.navCtrl.push(FuturePage)
-}*/
+goToFuture() {
+  this.navCtrl.push(FuturePage);
+}
+
+goToMedieval() {
+  this.navCtrl.push(MedievalPage);
+}
 
 }

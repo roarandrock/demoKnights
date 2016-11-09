@@ -15,13 +15,13 @@
 <h3>This is your time machine</h3>
 <ion-list>
   <ion-item>
-  <button ion-button icon-left>
+  <button ion-button icon-left (click)="goToMedieval()">
      <ion-icon name="beer"></ion-icon>
      Medieval
   </button>
 </ion-item>
   <ion-item>
-  <button ion-button color="secondary" outline icon-left>
+  <button ion-button color="secondary" outline icon-left (click)="goToFuture()">
     <ion-icon name="game-controller-a"></ion-icon>
     Future
 </button>
